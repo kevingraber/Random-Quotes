@@ -1,0 +1,60 @@
+body {
+	background-color: black;
+	background-size: cover;
+}
+
+h1 {
+	background-color: rgba(255, 255, 255, 0.7);
+	font-family: 'Oswald', sans-serif;
+	font-size: 100px;
+	font-weight:700;
+	overflow: hidden;
+	background: url(https://i.imgur.com/CyJYpUr.jpg) no-repeat;
+	background-position: center;
+	/*background-size: cover;*/
+	-webkit-text-fill-color: transparent;
+  	-webkit-background-clip: text;
+  	display: block;
+}
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size:40px;
+	font-weight:normal;
+}
+
+#author {
+	font-size:80px;
+}
+
+.quoteArea {
+	/*background-color:rgba(255,255,255,0.75);*/
+	border-radius:5px;
+	margin:auto;
+}
+
+button {
+	margin:10px;
+	color:white;
+	background-color: royalblue;
+	border-radius: 5px;
+	border:0px;
+	padding:7px;
+	transition:.3s;
+}
+
+button:hover {
+	background-color:lightblue;
+}
+
+button:focus, button:active {
+	outline:none;
+}
+
+.centered {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	  /* bring your own prefixes */
+	transform: translate(-50%, -50%);
+	width:80%;
+}
